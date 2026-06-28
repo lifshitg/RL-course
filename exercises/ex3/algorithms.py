@@ -339,7 +339,7 @@ def main():
     plt.legend()
     plt.grid(True)
     
-    plt.savefig("result.png", dpi=300, bbox_inches="tight")
+    plt.savefig("result_new.png", dpi=300, bbox_inches="tight")
     print("[*] Plot saved successfully to bonus_original_parameters.png")
     
     plt.show()
