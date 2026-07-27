@@ -169,7 +169,7 @@ def run_multi_agent_experiment():
 
     time_budgets = [1.0, 20.0]
     n_runs = 30
-    n_particles = 1000
+    n_particles = 500
 
     for budget in time_budgets:
         print(f"--- Running MULTI-AGENT experiments with Time Budget: {budget}s ---")
