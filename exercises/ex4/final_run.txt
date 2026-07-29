@@ -1,0 +1,654 @@
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 30                │
+╰──────────────────────────────────────────────────────────────────────╯
+
+  [ Step 0 | Action: START ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB    █ │
+  │ █      █ │
+  │ █ B  A █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+
+  [ Step 1 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB    █ │
+  │ █    A █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   1] Action: 0  | Sims: 16501 | Belief Support: 6
+
+  [ Step 2 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB  A █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   2] Action: 0  | Sims: 19100 | Belief Support: 2
+
+  [ Step 3 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB A  █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   3] Action: 3  | Sims: 28265 | Belief Support: 2
+
+  [ Step 4 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GBA   █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   4] Action: 3  | Sims: 31411 | Belief Support: 1
+
+  [ Step 5 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █BA    █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   5] Action: 3  | Sims: 46110 | Belief Support: 1
+
+  [ Step 6 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   6] Action: 1  | Sims: 83581 | Belief Support: 1
+
+  [ Step 7 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █      █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   7] Action: 1  | Sims: 140738 | Belief Support: 1
+
+  [ Step 8 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █      █ │
+  │ █      █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   8] Action: 1  | Sims: 273343 | Belief Support: 1
+  ├─ Run  1/30 ➔  Steps: 8    | Time:  10.8s | Status: ✓ Success
+  ├─ Run  2/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run  3/30 ➔  Steps: 11   | Time:  11.5s | Status: ✓ Success
+  ├─ Run  4/30 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ├─ Run  5/30 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run  6/30 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ├─ Run  7/30 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  8/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run  9/30 ➔  Steps: 15   | Time:  15.1s | Status: ✓ Success
+  ├─ Run 10/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run 11/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run 12/30 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run 13/30 ➔  Steps: 20   | Time:  20.1s | Status: ✓ Success
+  ├─ Run 14/30 ➔  Steps: 17   | Time:  17.1s | Status: ✓ Success
+  ├─ Run 15/30 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run 16/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 17/30 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run 18/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 19/30 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ├─ Run 20/30 ➔  Steps: 21   | Time:  21.1s | Status: ✓ Success
+  ├─ Run 21/30 ➔  Steps: 8    | Time:   8.0s | Status: ✓ Success
+  ├─ Run 22/30 ➔  Steps: 16   | Time:  16.1s | Status: ✓ Success
+  ├─ Run 23/30 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run 24/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 25/30 ➔  Steps: 15   | Time:  15.1s | Status: ✓ Success
+  ├─ Run 26/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run 27/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 28/30 ➔  Steps: 14   | Time:  14.1s | Status: ✓ Success
+  ├─ Run 29/30 ➔  Steps: 15   | Time:  15.1s | Status: ✓ Success
+  ├─ Run 30/30 ➔  Steps: 12   | Time:  12.0s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.53 steps | Std:  3.08 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 30                │
+╰──────────────────────────────────────────────────────────────────────╯
+
+  [ Step 0 | Action: START ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB    █ │
+  │ █      █ │
+  │ █ B  A █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+
+  [ Step 1 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB    █ │
+  │ █    A █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   1] Action: 0  | Sims: 313799 | Belief Support: 6
+
+  [ Step 2 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB  A █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   2] Action: 0  | Sims: 353946 | Belief Support: 2
+
+  [ Step 3 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GB A  █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   3] Action: 3  | Sims: 509589 | Belief Support: 2
+
+  [ Step 4 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GBA   █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   4] Action: 3  | Sims: 572053 | Belief Support: 1
+
+  [ Step 5 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █BA    █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   5] Action: 3  | Sims: 842527 | Belief Support: 1
+
+  [ Step 6 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   6] Action: 1  | Sims: 1232675 | Belief Support: 1
+
+  [ Step 7 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █      █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   7] Action: 1  | Sims: 2103497 | Belief Support: 1
+
+  [ Step 8 | Action: 1 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █B     █ │
+  │ █      █ │
+  │ █      █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   8] Action: 1  | Sims: 4104750 | Belief Support: 1
+  ├─ Run  1/30 ➔  Steps: 8    | Time: 162.9s | Status: ✓ Success
+  ├─ Run  2/30 ➔  Steps: 13   | Time: 260.4s | Status: ✓ Success
+  ├─ Run  3/30 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ├─ Run  4/30 ➔  Steps: 13   | Time: 260.3s | Status: ✓ Success
+  ├─ Run  5/30 ➔  Steps: 12   | Time: 240.2s | Status: ✓ Success
+  ├─ Run  6/30 ➔  Steps: 15   | Time: 300.5s | Status: ✓ Success
+  ├─ Run  7/30 ➔  Steps: 10   | Time: 200.2s | Status: ✓ Success
+  ├─ Run  8/30 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ├─ Run  9/30 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ├─ Run 10/30 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ├─ Run 11/30 ➔  Steps: 12   | Time: 240.2s | Status: ✓ Success
+  ├─ Run 12/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 13/30 ➔  Steps: 13   | Time: 260.4s | Status: ✓ Success
+  ├─ Run 14/30 ➔  Steps: 16   | Time: 320.5s | Status: ✓ Success
+  ├─ Run 15/30 ➔  Steps: 10   | Time: 200.2s | Status: ✓ Success
+  ├─ Run 16/30 ➔  Steps: 16   | Time: 320.5s | Status: ✓ Success
+  ├─ Run 17/30 ➔  Steps: 11   | Time: 220.2s | Status: ✓ Success
+  ├─ Run 18/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 19/30 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ├─ Run 20/30 ➔  Steps: 16   | Time: 320.3s | Status: ✓ Success
+  ├─ Run 21/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 22/30 ➔  Steps: 11   | Time: 220.2s | Status: ✓ Success
+  ├─ Run 23/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 24/30 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run 25/30 ➔  Steps: 14   | Time: 280.3s | Status: ✓ Success
+  ├─ Run 26/30 ➔  Steps: 14   | Time: 280.3s | Status: ✓ Success
+  ├─ Run 27/30 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ├─ Run 28/30 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ├─ Run 29/30 ➔  Steps: 16   | Time: 320.5s | Status: ✓ Success
+  ├─ Run 30/30 ➔  Steps: 14   | Time: 280.4s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.80 steps | Std:  2.57 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 30                │
+╰──────────────────────────────────────────────────────────────────────╯
+
+  [ Step 0 | Action: START ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC    █ │
+  │ █    A █ │
+  │ █ B  A █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+
+  [ Step 1 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC  A █ │
+  │ █      █ │
+  │ █ B A  █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   1] Action: 3  | Sims: 4804  | Belief Support: 12
+
+  [ Step 2 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC  A █ │
+  │ █   A  █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   2] Action: 0  | Sims: 6304  | Belief Support: 11
+
+  [ Step 3 | Action: 12 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC 2  █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   3] Action: 12 | Sims: 6531  | Belief Support: 4
+
+  [ Step 4 | Action: 15 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC2   █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   4] Action: 15 | Sims: 9000  | Belief Support: 1
+
+  [ Step 5 | Action: 15 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C2    █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   5] Action: 15 | Sims: 16809 | Belief Support: 1
+
+  [ Step 6 | Action: 5 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █ 2    █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   6] Action: 5  | Sims: 34207 | Belief Support: 1
+
+  [ Step 7 | Action: 5 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █      █ │
+  │ █ 2    █ │
+  │ █ B    █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   7] Action: 5  | Sims: 64214 | Belief Support: 1
+
+  [ Step 8 | Action: 5 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █      █ │
+  │ █  A   █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   8] Action: 5  | Sims: 142631 | Belief Support: 1
+  ├─ Run  1/30 ➔  Steps: 8    | Time:  10.8s | Status: ✓ Success
+  ├─ Run  2/30 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run  3/30 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  4/30 ➔  Steps: 14   | Time:  14.1s | Status: ✓ Success
+  ├─ Run  5/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run  6/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run  7/30 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  8/30 ➔  Steps: 11   | Time:  11.2s | Status: ✓ Success
+  ├─ Run  9/30 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run 10/30 ➔  Steps: 10   | Time:  10.2s | Status: ✓ Success
+  ├─ Run 11/30 ➔  Steps: 11   | Time:  11.2s | Status: ✓ Success
+  ├─ Run 12/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 13/30 ➔  Steps: 12   | Time:  12.2s | Status: ✓ Success
+  ├─ Run 14/30 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run 15/30 ➔  Steps: 11   | Time:  11.2s | Status: ✓ Success
+  ├─ Run 16/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 17/30 ➔  Steps: 15   | Time:  15.2s | Status: ✓ Success
+  ├─ Run 18/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 19/30 ➔  Steps: 15   | Time:  15.1s | Status: ✓ Success
+  ├─ Run 20/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 21/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 22/30 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run 23/30 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run 24/30 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run 25/30 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run 26/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 27/30 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run 28/30 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run 29/30 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run 30/30 ➔  Steps: 14   | Time:  14.2s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.53 steps | Std:  2.16 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 30                │
+╰──────────────────────────────────────────────────────────────────────╯
+
+  [ Step 0 | Action: START ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC    █ │
+  │ █    A █ │
+  │ █ B  A █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+
+  [ Step 1 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC  A █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █    A █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   1] Action: 3  | Sims: 103508 | Belief Support: 12
+
+  [ Step 2 | Action: 12 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC A  █ │
+  │ █      █ │
+  │ █ B  A █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   2] Action: 12 | Sims: 141889 | Belief Support: 10
+
+  [ Step 3 | Action: 0 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC A  █ │
+  │ █    A █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   3] Action: 0  | Sims: 162231 | Belief Support: 9
+
+  [ Step 4 | Action: 12 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GCA A █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   4] Action: 12 | Sims: 164713 | Belief Support: 2
+
+  [ Step 5 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GCA   █ │
+  │ █    A █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   5] Action: 3  | Sims: 295755 | Belief Support: 2
+
+  [ Step 6 | Action: 3 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GCA   █ │
+  │ █   A  █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   6] Action: 3  | Sims: 216264 | Belief Support: 3
+
+  [ Step 7 | Action: 12 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GCAA  █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   7] Action: 12 | Sims: 201177 | Belief Support: 1
+
+  [ Step 8 | Action: 15 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GCA   █ │
+  │ █   A  █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   8] Action: 15 | Sims: 350043 | Belief Support: 1
+
+  [ Step 9 | Action: 11 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC A  █ │
+  │ █  A   █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step   9] Action: 11 | Sims: 176544 | Belief Support: 1
+
+  [ Step 10 | Action: 12 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █GC2   █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step  10] Action: 12 | Sims: 230947 | Belief Support: 1
+
+  [ Step 11 | Action: 15 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C2    █ │
+  │ █      █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step  11] Action: 15 | Sims: 517293 | Belief Support: 1
+
+  [ Step 12 | Action: 5 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █ 2    █ │
+  │ █ B    █ │
+  │ █      █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step  12] Action: 5  | Sims: 780703 | Belief Support: 1
+
+  [ Step 13 | Action: 5 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █A     █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ █ G    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step  13] Action: 5  | Sims: 1294417 | Belief Support: 1
+
+  [ Step 14 | Action: 4 ]
+  ╭──────────╮
+  │ ████████ │
+  │ █C     █ │
+  │ █A     █ │
+  │ █      █ │
+  │ █ A    █ │
+  │ █ B    █ │
+  │ ████████ │
+  ╰──────────╯
+      [Step  14] Action: 4  | Sims: 2318941 | Belief Support: 1
+  ├─ Run  1/30 ➔  Steps: 14   | Time: 285.0s | Status: ✓ Success
+  ├─ Run  2/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  3/30 ➔  Steps: 12   | Time: 240.4s | Status: ✓ Success
+  ├─ Run  4/30 ➔  Steps: 13   | Time: 260.6s | Status: ✓ Success
+  ├─ Run  5/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  6/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  7/30 ➔  Steps: 12   | Time: 240.4s | Status: ✓ Success
+  ├─ Run  8/30 ➔  Steps: 16   | Time: 320.6s | Status: ✓ Success
+  ├─ Run  9/30 ➔  Steps: 12   | Time: 240.4s | Status: ✓ Success
+  ├─ Run 10/30 ➔  Steps: 9    | Time: 180.4s | Status: ✓ Success
+  ├─ Run 11/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run 12/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 13/30 ➔  Steps: 14   | Time: 280.5s | Status: ✓ Success
+  ├─ Run 14/30 ➔  Steps: 8    | Time: 160.3s | Status: ✓ Success
+  ├─ Run 15/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run 16/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 17/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 18/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 19/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run 20/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 21/30 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ├─ Run 22/30 ➔  Steps: 8    | Time: 160.3s | Status: ✓ Success
+  ├─ Run 23/30 ➔  Steps: 19   | Time: 380.8s | Status: ✓ Success
+  ├─ Run 24/30 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ├─ Run 25/30 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run 26/30 ➔  Steps: 12   | Time: 240.5s | Status: ✓ Success
+  ├─ Run 27/30 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run 28/30 ➔  Steps: 12   | Time: 240.4s | Status: ✓ Success
+  ├─ Run 29/30 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run 30/30 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.40 steps | Std:  2.67 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        12.53 │      3.08 │       100% (30/30) │
+│ single_agent │    20.0s │        11.80 │      2.57 │       100% (30/30) │
+│ multi_agent  │     1.0s │        10.53 │      2.16 │       100% (30/30) │
+│ multi_agent  │    20.0s │        10.40 │      2.67 │       100% (30/30) │
+════════════════════════════════════════════════════════════════════════════════

@@ -1,0 +1,372 @@
+=== STARTING COMPREHENSIVE C-PARAMETER GRID SEARCH ===
+
+
+########################################
+ SCENARIO: SINGLE_AGENT
+########################################
+
+----------------------------------------
+ Testing Scenario: single_agent | UCB1 Constant: c = 0.5
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 18   | Time:  18.5s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 12   | Time:  12.2s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.40 steps | Std:  2.94 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 13   | Time: 260.3s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 22   | Time: 440.7s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 10   | Time: 200.2s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.60 steps | Std:  4.96 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        12.40 │      2.94 │         100% (5/5) │
+│ single_agent │    20.0s │        12.60 │      4.96 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: single_agent | UCB1 Constant: c = 1.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 15   | Time:  15.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 14   | Time:  14.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 11   | Time:  11.0s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 8    | Time:   8.0s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.40 steps | Std:  2.73 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 14   | Time: 280.3s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 16   | Time: 320.4s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 12   | Time: 240.2s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.00 steps | Std:  2.83 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        11.40 │      2.73 │         100% (5/5) │
+│ single_agent │    20.0s │        12.00 │      2.83 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: single_agent | UCB1 Constant: c = 2.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 16   | Time:  16.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 13   | Time:  13.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 8    | Time:   8.0s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 11   | Time:  11.0s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 12   | Time:  12.0s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.00 steps | Std:  2.61 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 11   | Time: 220.2s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 14   | Time: 280.4s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 11   | Time: 220.3s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 14   | Time: 280.3s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.80 steps | Std:  1.94 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        12.00 │      2.61 │         100% (5/5) │
+│ single_agent │    20.0s │        11.80 │      1.94 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: single_agent | UCB1 Constant: c = 5.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 17   | Time:  17.2s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time:  10.0s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 16   | Time:  16.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.80 steps | Std:  3.19 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 10   | Time: 200.2s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 12   | Time: 240.3s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:   9.80 steps | Std:  1.17 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        12.80 │      3.19 │         100% (5/5) │
+│ single_agent │    20.0s │         9.80 │      1.17 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: single_agent | UCB1 Constant: c = 10.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 10   | Time:  10.0s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 12   | Time:  12.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 10   | Time:  10.0s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 9    | Time:   9.0s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.00 steps | Std:  1.10 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: single_agent    | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time: 200.2s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 14   | Time: 280.5s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.40 steps | Std:  1.96 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ single_agent │     1.0s │        10.00 │      1.10 │         100% (5/5) │
+│ single_agent │    20.0s │        10.40 │      1.96 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+
+########################################
+ SCENARIO: MULTI_AGENT
+########################################
+
+----------------------------------------
+ Testing Scenario: multi_agent | UCB1 Constant: c = 0.5
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 15   | Time:  15.2s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 15   | Time:  15.3s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.60 steps | Std:  2.94 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 13   | Time: 260.5s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 15   | Time: 300.7s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 11   | Time: 220.5s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 11   | Time: 220.4s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 15   | Time: 300.6s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  13.00 steps | Std:  1.79 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ multi_agent  │     1.0s │        11.60 │      2.94 │         100% (5/5) │
+│ multi_agent  │    20.0s │        13.00 │      1.79 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: multi_agent | UCB1 Constant: c = 1.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 13   | Time:  13.2s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 13   | Time:  13.2s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.20 steps | Std:  1.60 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 11   | Time: 220.3s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 9    | Time: 180.2s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 8    | Time: 160.2s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 13   | Time: 260.5s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.00 steps | Std:  1.79 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ multi_agent  │     1.0s │        11.20 │      1.60 │         100% (5/5) │
+│ multi_agent  │    20.0s │        10.00 │      1.79 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: multi_agent | UCB1 Constant: c = 2.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 10   | Time:  10.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 8    | Time:   8.0s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:   9.00 steps | Std:  0.89 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 11   | Time: 220.4s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.20 steps | Std:  0.40 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ multi_agent  │     1.0s │         9.00 │      0.89 │         100% (5/5) │
+│ multi_agent  │    20.0s │        10.20 │      0.40 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: multi_agent | UCB1 Constant: c = 5.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 14   | Time:  14.2s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:   9.40 steps | Std:  2.33 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 16   | Time: 320.6s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 14   | Time: 280.7s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 10   | Time: 200.3s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 10   | Time: 200.4s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 14   | Time: 280.6s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  12.80 steps | Std:  2.40 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ multi_agent  │     1.0s │         9.40 │      2.33 │         100% (5/5) │
+│ multi_agent  │    20.0s │        12.80 │      2.40 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+----------------------------------------
+ Testing Scenario: multi_agent | UCB1 Constant: c = 10.0
+----------------------------------------
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:   1.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 8    | Time:   8.1s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 13   | Time:  13.2s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time:   9.1s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 11   | Time:  11.1s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  10.00 steps | Std:  1.79 | Success: 100%
+
+
+╭──────────────────────────────────────────────────────────────────────╮
+│ SCENARIO: multi_agent     | BUDGET:  20.0s | RUNS: 5                 │
+╰──────────────────────────────────────────────────────────────────────╯
+  ├─ Run  1/5 ➔  Steps: 12   | Time: 240.5s | Status: ✓ Success
+  ├─ Run  2/5 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  3/5 ➔  Steps: 14   | Time: 280.7s | Status: ✓ Success
+  ├─ Run  4/5 ➔  Steps: 9    | Time: 180.3s | Status: ✓ Success
+  ├─ Run  5/5 ➔  Steps: 11   | Time: 220.4s | Status: ✓ Success
+  ╰─ RESULTS ➔  Mean:  11.00 steps | Std:  1.90 | Success: 100%
+
+════════════════════════════════════════════════════════════════════════════════
+│                           POMCP EXPERIMENT SUMMARY                           │
+════════════════════════════════════════════════════════════════════════════════
+│ Scenario     │   Budget │   Mean Steps │   Std Dev │       Success Rate │
+├──────────────┼──────────┼──────────────┼───────────┼────────────────────┤
+│ multi_agent  │     1.0s │        10.00 │      1.79 │         100% (5/5) │
+│ multi_agent  │    20.0s │        11.00 │      1.90 │         100% (5/5) │
+════════════════════════════════════════════════════════════════════════════════
+
+
+==================================================
+ GRID SEARCH EXPERIMENT SUMMARY
+==================================================
+All scenarios and c-values have completed execution.
+Tested c values: [0.5, 1.0, 2.0, 5.0, 10.0]
+Tested scenarios: ['single_agent', 'multi_agent']
+Review the block metrics above or check 'exercises/ex4/output.txt'
+to compare success rates, steps-to-completion, and reward averages.
+==================================================
