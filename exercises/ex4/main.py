@@ -250,7 +250,7 @@ if __name__ == "__main__":
         # ["single_agent", "multi_agent"]
         run_full_experiment(POMCPConfig(), scenarios=["single_agent", "multi_agent"], verbose_first=True)
 
-        c_grid_search()
+        # c_grid_search()
     finally:
         # Ensure the file safely closes even if the script finishes or errors out
         sys.stdout = tee_output.terminal
