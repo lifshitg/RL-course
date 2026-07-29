@@ -199,6 +199,44 @@ def run_full_experiment(config: POMCPConfig, scenarios=None, budgets=None,
     print("═" * 80)
     return results
 
+def c_grid_search():
+    print("=== STARTING COMPREHENSIVE C-PARAMETER GRID SEARCH ===")
+
+    c_values_to_test = [0.5, 1.0, 2.0, 5.0, 10.0]
+    scenarios_to_test = ["single_agent", "multi_agent"]
+
+    for scenario in scenarios_to_test:
+        print(f"\n\n########################################")
+        print(f" SCENARIO: {scenario.upper()}")
+        print(f"########################################")
+
+        for c_val in c_values_to_test:
+            print(f"\n{'-' * 40}")
+            print(f" Testing Scenario: {scenario} | UCB1 Constant: c = {c_val}")
+            print(f"{'-' * 40}\n")
+
+            # 1. Initialize config without kwargs
+            config = POMCPConfig()
+
+            # 2. Assign parameters as direct attributes to avoid TypeError
+            config.ucb_c = c_val
+            config.n_runs = 5
+
+            run_full_experiment(
+                config,
+                scenarios=[scenario],
+                verbose_first=False
+            )
+
+    print("\n\n" + "=" * 50)
+    print(" GRID SEARCH EXPERIMENT SUMMARY")
+    print("=" * 50)
+    print("All scenarios and c-values have completed execution.")
+    print("Tested c values:", c_values_to_test)
+    print("Tested scenarios:", scenarios_to_test)
+    print("Review the block metrics above or check 'exercises/ex4/output.txt'")
+    print("to compare success rates, steps-to-completion, and reward averages.")
+    print("=" * 50)
 
 # ===========================================================================
 # Entry point
@@ -212,43 +250,7 @@ if __name__ == "__main__":
         # ["single_agent", "multi_agent"]
         run_full_experiment(POMCPConfig(), scenarios=["single_agent", "multi_agent"], verbose_first=True)
 
-        # print("=== STARTING COMPREHENSIVE C-PARAMETER GRID SEARCH ===")
-        #
-        # c_values_to_test = [0.5, 1.0, 2.0, 5.0, 10.0]
-        # scenarios_to_test = ["single_agent", "multi_agent"]
-        #
-        # for scenario in scenarios_to_test:
-        #     print(f"\n\n########################################")
-        #     print(f" SCENARIO: {scenario.upper()}")
-        #     print(f"########################################")
-        #
-        #     for c_val in c_values_to_test:
-        #         print(f"\n{'-' * 40}")
-        #         print(f" Testing Scenario: {scenario} | UCB1 Constant: c = {c_val}")
-        #         print(f"{'-' * 40}\n")
-        #
-        #         # 1. Initialize config without kwargs
-        #         config = POMCPConfig()
-        #
-        #         # 2. Assign parameters as direct attributes to avoid TypeError
-        #         config.ucb_c = c_val
-        #         config.n_runs = 5
-        #
-        #         run_full_experiment(
-        #             config,
-        #             scenarios=[scenario],
-        #             verbose_first=False
-        #         )
-        #
-        # print("\n\n" + "=" * 50)
-        # print(" GRID SEARCH EXPERIMENT SUMMARY")
-        # print("=" * 50)
-        # print("All scenarios and c-values have completed execution.")
-        # print("Tested c values:", c_values_to_test)
-        # print("Tested scenarios:", scenarios_to_test)
-        # print("Review the block metrics above or check 'exercises/ex4/output.txt'")
-        # print("to compare success rates, steps-to-completion, and reward averages.")
-        # print("=" * 50)
+        c_grid_search()
     finally:
         # Ensure the file safely closes even if the script finishes or errors out
         sys.stdout = tee_output.terminal
